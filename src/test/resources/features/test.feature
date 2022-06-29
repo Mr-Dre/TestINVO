@@ -1,4 +1,4 @@
-Feature: Test welcome page
+Feature: Test welcome  flipboard.com
 
 
  @Smoke
