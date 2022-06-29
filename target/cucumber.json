@@ -1,0 +1,252 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Протестировать функционал сайта",
+        "description": "",
+        "id": "test-invo;протестировать-функционал-сайта",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3042631800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Пользователь должен открыть сайт",
+            "match": {
+              "location": "Test1Steps.пользователь_должен_открыть_сайт()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 485600500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Пользователь должен нажать на кнопку try it for free",
+            "match": {
+              "location": "Test1Steps.пользователь_Должен_Нажать_НаКнопку_TryItForFree()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 337147500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Пользователь должен авторизоваться с этими данными",
+            "match": {
+              "location": "Test1Steps.пользователь_должен_авторизоваться_с_этими_данными(LoginDateINVO\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "yourFullName",
+                  "userName",
+                  "eMail",
+                  "password",
+                  "repeatPassword"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "testxc2",
+                  "demotest2",
+                  "hasorex962@meidir.com",
+                  "test12345",
+                  "test12345"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 372317300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Пользователь доложен успешно зайти в систему",
+            "match": {
+              "location": "Test1Steps.пользователь_доложен_успешно_зайти_в_систему()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 406853100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Система запросила  вести логин и пароль пользователь должен вести эти даные",
+            "match": {
+              "location": "Test1Steps.системаЗапросилаВестиЛогинИПарольПользовательДолженВестиЭтиДаные()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1438700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Пользователь должен увидет  \"Your Invoices\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your Invoices",
+                  "offset": 29
+                }
+              ],
+              "location": "Test1Steps.пользователь_должен_увидет(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 262972200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Пользователь должен зайти в раздел companies",
+            "match": {
+              "location": "Test1Steps.пользователь_должен_зайти_в_раздел_companies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Должен увидеть в разделе companies \"Search companies\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search companies",
+                  "offset": 36
+                }
+              ],
+              "location": "Test1Steps.должен_Увидеть_В_Разделе_Companies(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 290867100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Пользователь должен зайти в раздел products",
+            "match": {
+              "location": "Test1Steps.пользователь_должен_зайти_в_раздел_products()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Должен увидеть в разделе products \"Search products\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search products",
+                  "offset": 35
+                }
+              ],
+              "location": "Test1Steps.долженУвидетьВРазделеProducts(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 265067700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Пользователь должен зайти в раздел Product Type",
+            "match": {
+              "location": "Test1Steps.пользователь_должен_зайти_в_раздел_Product_Type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Должен увидеть в разделе Product Type  \"Search product types\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search product types",
+                  "offset": 40
+                }
+              ],
+              "location": "Test1Steps.долженУвидетьВРазделеProductType(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 272932700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Пользователь должен зайти в раздел Your profile",
+            "match": {
+              "location": "Test1Steps.пользователь_должен_зайти_в_раздел_Your_profile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 438100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Должен увидеть \"Your Full Name\"  \"Email Address\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your Full Name",
+                  "offset": 16
+                },
+                {
+                  "val": "Email Address",
+                  "offset": 34
+                }
+              ],
+              "location": "Test1Steps.должен_увидеть(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "test INVO",
+    "description": "",
+    "id": "test-invo",
+    "keyword": "Feature",
+    "uri": "features/testINVO.feature"
+  }
+]
