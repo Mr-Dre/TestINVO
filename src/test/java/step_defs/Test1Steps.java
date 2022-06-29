@@ -45,7 +45,7 @@ public class Test1Steps {
     }
     @When("^Система запросила  вести логин и пароль пользователь должен вести эти даные$")
     public void системаЗапросилаВестиЛогинИПарольПользовательДолженВестиЭтиДаные() {
-        loginINVO.email.sendKeys("cifitej322@shbiso.com");
+        loginINVO.email.sendKeys("cifitej322@shbiso.com")a;
         loginINVO.password.sendKeys("test12345");
         loginINVO.buttonLogin.click();
     }
